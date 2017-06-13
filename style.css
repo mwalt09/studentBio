@@ -28,26 +28,35 @@ h2 {
 }
 
 .container {
-	width: 1024px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
-#main-bio, #bio-image, #contact-info {
-	float: left;
+#main-bio, #paragraph, #contact-info {
+	display: inline-block;
+	/*float: left;*/
 }
 
 #bio-image {
 	width: 200px;
 	height: 200px;
-	margin-right: 20px;
 }
 
 #main-bio {
-	width: 70%;
+	width: 20%;
+}
+
+#paragraph {
+	width: 40%;
+	vertical-align: top;
+	margin-top: 50px;
 }
 
 #contact-info {
 	width: 30%;
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 
 a {
